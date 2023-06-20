@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "https://note-mern-server.vercel.app",
+    baseURL: "https://note-mern-server.vercel.app/",
 });
 
 instance.interceptors.request.use(config => {
